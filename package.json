@@ -1,0 +1,35 @@
+{
+  "name": "checkpoint-backend",
+  "version": "1.0.0",
+  "description": "Backend GraphQL API with Node.js, TypeScript, Apollo Server, TypeGraphQL, and TypeORM (SQLite)",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChloeNuage/Checkpoint-backend-WCS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ChloeNuage/Checkpoint-backend-WCS/issues"
+  },
+  "homepage": "https://github.com/ChloeNuage/Checkpoint-backend-WCS#readme",
+  "dependencies": {
+    "@apollo/server": "^4.12.2",
+    "reflect-metadata": "^0.2.2",
+    "sqlite3": "^5.1.7",
+    "type-graphql": "^2.0.0-beta.6",
+    "typeorm": "^0.3.26"
+  },
+  "devDependencies": {
+    "@types/node": "^24.4.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.2"
+  }
+}
